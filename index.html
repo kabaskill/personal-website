@@ -3,26 +3,25 @@
   <head>
     <title>Oguz's Personal Website</title>
     <meta charset="UTF-8" />
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
 
   <body>
     <header>
         <h1>Oguz Kabasakal</h1>
-
         <nav id="nav">
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#skillset">Skillset</a></li>
-            <li><a href="#CV">CV</a></li>
-        </ul>
+            <ul class="list-nav">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skillset">Skillset</a></li>
+                <li><a href="#CV">CV</a></li>
+            </ul>
         </nav>
     </header>
        
     <main>
-        <article id="about-me">
+        <section class="about-me" id="about-me">
             <h2>About me</h2>
             <p>
             Hello World! I'm a composer and a sound designer based on Darmstadt, Germany.
@@ -32,50 +31,48 @@
             guitars throughout the years.
             </p>
             <figure>
-                <img src="https://source.unsplash.com/random/400x300?dog" alt="a random picture"/>
+                <img src="https://source.unsplash.com/random/?dog" alt="a random picture"/>
                 <figcaption>
                     I'm a dog person, so here is a random dog.
-                </figcaption>
+                </figcaption>                
             </figure>
-        </article>
+        </section>
 
-        <article id="contact">
+        <section id="contact">
             <h2>Contact</h2>
-            <ul>
+            <ul class="list-content">
                 <li><a href="https://github.com/kabaskill">GitHub</a></li>
                 <li><a href="https://www.linkedin.com/in/oguzkabasakal/">LinkedIn</a></li>
                 <li><a href="https://oguzkabasakal.com/">Portfolio</a></li>
             </ul>
-        </article>
+        </section>
         
-        <article id="skillset">
+        <section id="skillset">
             <h2>Skillset</h2>
-            <ul>
+            <ul class="list-content">
                 <li>Composing and Performing Music</li>
                 <li>Sound Design</li>
                 <li>Music Production</li>
                 <li>Unity and C#</li>
                 <li>JavaScript, HTML and CSS</li>
             </ul>
-        </article>
+        </section>
 
-        <article id="CV">
+        <section id="CV">
             <h2>CV</h2>
-            <ul>
-                <li>Sound Design since 2011</li>
-                <li>Localisation 2014-2018</li>
-                <li>Teaching Music 2010-2022</li>
-                <li>Learning How to Code since 2022</li>
-                <li>On the road to become a Web Developer since 2023</li>
+            <ul class="list-content">
+                <li>Sound Design <span class="list-years">2011</span></li>
+                <li>Localisation <span class="list-years">2014-2018</span></li>
+                <li>Teaching Music <span class="list-years">2010-2022</span></li>
+                <li>Learning How to Code <span class="list-years">since 2022</span></li>
+                <li>On the road to become a Web Dev <span class="list-years">2023</span></li>
             </ul>
-        </article>
-        
+        </section>
     </main>
 
     <footer>
 
     </footer>
-
   </body>
 </html>
 
