@@ -1,0 +1,8 @@
+h1,
+h2 {
+  text-align: center;
+  border-bottom: solid 0.1rem black;
+  padding: 5px;
+
+  font-family: "Courier New", Courier, monospace;
+}
