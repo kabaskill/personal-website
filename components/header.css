@@ -1,8 +1,30 @@
-h1,
-h2 {
-  text-align: center;
-  border-bottom: solid 0.1rem black;
-  padding: 5px;
+header {
+  background-color: var(--dark-color);
+  color: var(--main-color);
+}
 
-  font-family: "Courier New", Courier, monospace;
+header.flex {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.list-nav {
+  justify-content: space-around;
+  list-style: none;
+  padding: 5px;
+}
+
+.list-nav a {
+  text-decoration: none;
+  text-shadow: 2px 1px rgba(0, 0, 0, 0.5);
+  text-transform: lowercase;
+  color: var(--emph2-color);
+}
+
+a:hover {
+  color: black;
 }
