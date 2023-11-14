@@ -1,22 +1,4 @@
+@import "/components/global.css";
 @import "/components/header.css";
 @import "/components/section.css";
 @import "/components/footer.css";
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-:root {
-  --dark-color: #373f51;
-  --main-color: #dae0f2;
-  --accent-color: #efe991;
-  --emph-color: #ff934f;
-  --emph2-color: #cfe795;
-}
-
-body {
-  font-family: Helvetica, sans-serif;
-  background-color: var(--main-color);
-}
